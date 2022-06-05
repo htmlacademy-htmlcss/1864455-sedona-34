@@ -39,7 +39,6 @@ body {
     background-image: url('../images/index/images-title/tittle-background.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
-    text-align: center;
 }
 
 .description {
@@ -54,7 +53,6 @@ body {
 }
 
 .five-causes {
-    font-weight: 400;
     font-size: 22px;
     line-height: 26px;
     color: #333333;
@@ -76,9 +74,173 @@ body {
 .advantages-title {
     text-transform: uppercase;
     color: #000000;
-    background-color: #ffffff;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.advantages-number {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.advantages-description {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
 }
 
 .advantages-bgcolor {
     background: rgba(131, 179, 211, 0.12);
+}
+
+.interest-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+}
+
+.interest-description {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+}
+
+.interest-link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subscribe-main {
+    background-image: url(../images/index/images-main/canyon-blur.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.subscribe-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color:#ffffff
+}
+
+.subscribe-description {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer-phone {
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*Каталог*/
+
+.inner-header-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    color: #333333; /*будет заменен на белый после добавления bg-img*/
+}
+
+.breadcrumbs-link {
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333; /*будет заменен на белый после добавления bg-img*/
+}
+
+.catalog-filter-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #333333; /*будет заменен на белый после добавления bg-img*/
+}
+
+.catalog-filter-item {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333; /*будет заменен на белый после добавления bg-img*/
+}
+
+.found-hotels-list, .found-resultat {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.resultat-sorting {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.hotel-card-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.hotel-card-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.hotel-card-description {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.hotel-card-price {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.hotel-card-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #333333; /*будет заменен на белый после добавления bg-img для кнопки*/
+    text-decoration: none;
+}
+
+.hotel-rating {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.pagination-link {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.hotel-on-page-title {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.hotel-on-page {
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
 }
